@@ -1,0 +1,500 @@
+        :root {
+            --primary: #063c7c;
+            --secondary: #0852a3;
+            --accent: #00aaff;
+            --light: #f4f4f4;
+            --dark: #333;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--dark);
+            background-color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(rgba(6,60,124,0.85), rgba(6,60,124,0.85)), url('https://www.terminix.com/-/media/Foundation/Terminix/Hero/Commercial/New-Commercial-Images-Resized/img-15Spray-2432-B-resize.jpg?rev=cac3a501f2ae453da4885a47c79a7b9f');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 150px 20px 100px;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.5rem;
+        }
+        nav {
+            background-color: var(--primary);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        nav li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        nav li a:hover {
+            background-color: var(--secondary);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        section {
+            margin-bottom: 60px;
+        }
+        :root {
+            --primary: #063c7c;
+            --secondary: #0852a3;
+            --accent: #00aaff;
+            --light: #f4f4f4;
+            --dark: #333;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--dark);
+            background-color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(rgba(6,60,124,0.85), rgba(6,60,124,0.85)), url('https://www.terminix.com/-/media/Foundation/Terminix/Hero/Commercial/New-Commercial-Images-Resized/img-15Spray-2432-B-resize.jpg?rev=cac3a501f2ae453da4885a47c79a7b9f');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 150px 20px 100px;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.5rem;
+        }
+        nav {
+            background-color: var(--primary);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        nav li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        nav li a:hover {
+            background-color: var(--secondary);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        section {
+            margin-bottom: 60px;
+        }
+        h2 {
+            text-align: center;
+            color: var(--primary);
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+            text-align: center;
+        }
+        .card h3 {
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+        .pests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .pest-item {
+            text-align: center;
+        }
+        .pest-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .clients-grid img {
+            border-radius: 10px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .cta {
+            text-align: center;
+            background: var(--secondary);
+            color: white;
+            padding: 60px 20px;
+        }
+        .cta h2 {
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #042b5a;
+        }
+        footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .mobile-menu {
+            display: none;
+            cursor: pointer;
+            padding: 15px;
+            font-size: 1.5rem;
+            color: white;
+            text-align: right;
+        }
+
+        /* Enhanced Responsiveness */
+        @media (max-width: 768px) {
+            header {
+                padding: 120px 20px 80px;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+            header p {
+                font-size: 1.2rem;
+            }
+            nav ul {
+                flex-direction: column;
+                display: none;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            .mobile-menu {
+                display: block;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            .pests-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 15px;
+            }
+            .pest-item img {
+                height: 130px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 100px 15px 60px;
+            }
+            header h1 {
+                font-size: 2.2rem;
+            }
+            header p {
+                font-size: 1.1rem;
+            }
+            .container {
+                padding: 30px 15px;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            .card img {
+                height: 180px;
+            }
+            .pest-item img {
+                height: 110px;
+            }
+            .pest-item p {
+                padding-top: 40px !important;
+                font-size: 0.95rem;
+            }
+            .btn {
+                padding: 12px 25px;
+                font-size: 0.95rem;
+            }
+        }
+        h2 {
+            text-align: center;
+            color: var(--primary);
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+
+        /* ==================== SERVICES SECTION - UNIQUE CLASSES ==================== */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            perspective: 1000px;
+            height: 420px;
+            cursor: pointer;
+        }
+        .service-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .service-card:hover .service-inner,
+        .service-card.flipped .service-inner {
+            transform: rotateY(180deg);
+        }
+        .service-front, .service-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .service-front {
+            background: white;
+        }
+        .service-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .service-title {
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f8f9fa;
+        }
+        .service-card h3 {
+            color: var(--secondary);
+            margin: 0;
+            font-size: 1.6rem;
+        }
+        .service-back {
+            background: white;
+            padding: 30px 20px;
+            transform: rotateY(180deg);
+            justify-content: center;
+            text-align: left;
+        }
+        .service-back h3 {
+            color: var(--secondary);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .service-back p {
+            margin: 12px 0;
+            font-size: 1rem;
+        }
+
+        /* ==================== OTHER SECTIONS (unchanged) ==================== */
+        .pests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .pest-item {
+            text-align: center;
+        }
+        .pest-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .clients-grid img {
+            border-radius: 10px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .cta {
+            text-align: center;
+            background: var(--secondary);
+            color: white;
+            padding: 60px 20px;
+        }
+        .cta h2 {
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #042b5a;
+        }
+        footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .mobile-menu {
+            display: none;
+            cursor: pointer;
+            padding: 15px;
+            font-size: 1.5rem;
+            color: white;
+            text-align: right;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            header {
+                padding: 120px 20px 80px;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+            header p {
+                font-size: 1.2rem;
+            }
+            nav ul {
+                flex-direction: column;
+                display: none;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            .mobile-menu {
+                display: block;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            .pests-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 15px;
+            }
+            .pest-item img {
+                height: 130px;
+            }
+            .service-card {
+                height: 380px;
+            }
+            .service-img {
+                height: 180px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 100px 15px 60px;
+            }
+            header h1 {
+                font-size: 2.2rem;
+            }
+            header p {
+                font-size: 1.1rem;
+            }
+            .container {
+                padding: 30px 15px;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            .service-img {
+                height: 160px;
+            }
+            .pest-item img {
+                height: 110px;
+            }
+            .btn {
+                padding: 12px 25px;
+                font-size: 0.95rem;
+            }
+        }
